@@ -13,9 +13,9 @@ namespace pavlovLab.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            Log.Information("Acquiring version info");
-            Log.Warning("Some warning");
-            Log.Error("Here comes an error");
+            Log.Information("Info");
+            Log.Warning("WRANG");
+            Log.Error("ERROR");
 
             var versionInfo = new Version
             {

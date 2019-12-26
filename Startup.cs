@@ -68,7 +68,7 @@ namespace pavlovLab
         {
             var log = new LoggerConfiguration()
                 .WriteTo.Console()
-                .WriteTo.File("logs\\pavlovLab.log", rollingInterval: RollingInterval.Day)
+                .WriteTo.File("logs\\ads.log", rollingInterval: RollingInterval.Day)
                 .CreateLogger();
 
             Log.Logger = log;
